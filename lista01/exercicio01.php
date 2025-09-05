@@ -1,5 +1,5 @@
 <?php
-
+    include("cabecalho.php");
 // Verifica se os dados foram enviados via método POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Se a página for acessada diretamente sem o formulário, exibe uma mensagem
     echo "Por favor, preencha o formulário para somar os números.";
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <main class="container">
         <h1>Soma de dois números</h1>
-        <form class="border p-4" method="post" action="respostaexercicio01.php">
+        <form class="border p-4" method="post">
             <div class="row">
                 <div class="col-md-2 mt-3">
                     <label for id="numero1" class="form-label">Primeiro número:</label>
@@ -58,9 +57,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="submit" value="Somar" class="mt-3">
         </form>
     </main>
+<?php
 
+  include("rodape.php")
 
-
-    
-</body>
-</html>
+  ?>

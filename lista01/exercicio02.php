@@ -1,4 +1,5 @@
 <?php
+     include("cabecalho.php");
     #verifica se foi usado o método POST
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -37,7 +38,7 @@
 
     <main class="container">
         <h1>Subtração do segundo número menos o primeiro</h1>
-        <form class="border p-4" method="post" action="respostaexercicio02.php">
+        <form class="border p-4" method="post">
             <div class="row">
                 <div class="col-md-2 mt-3">
                     <label for id="num1" class="form-label">Primeiro número:</label>
@@ -53,5 +54,8 @@
             <input type="submit" value="Subtrair" class="mt-3">
         </form>
     </main>
-</body>
-</html>
+
+    <?php
+
+    include("rodape.php");
+    ?>

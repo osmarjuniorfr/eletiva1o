@@ -11,11 +11,10 @@
     $num2 = intval($num2_string);
     
 
-    $mult = $num1 * $num2;
+    $div = $num1 / $num2;
 
-    echo "<h3> A multiplicação dos números " . $num1 . " e " . $num2 . " resulta em: " . $mult . "</h3>";
 
-   }
+    
 
 
 
@@ -31,12 +30,12 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <title>Lista 01 - Exercício 03</title>
+    <title>Lista 01 - Exercício 04</title>
 </head>
 <body>
     
     <main class="container">
-        <h1>Multiplicação de dois valores</h1>
+        <h1>Divisão de dois valores</h1>
         <form class="border p-4" method="post">
             <div class="row mt-3">
                 <div class="col-md-2 mt-3">
@@ -50,10 +49,17 @@
                 </div>
             </div>
 
-            <input type="submit" value="Multiplicar" class="mt-3">
+            <input type="submit" value="Dividir" class="mt-3">
         </form>
     </main>
 
 <?php
+
+if ($div != 0){
+        echo "<h3> A divisão dos números " . $num1 . " e " . $num2 . " resulta em: " . $div . "</h3>";
+    } else{
+        echo "<p> A divisão resulta em 0</p>";
+    }
+   }
 include("rodape.php");
 ?>
