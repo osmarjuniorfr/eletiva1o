@@ -42,7 +42,7 @@
                             <li><a class="dropdown-item" href="exercicio17.php">ex17</a></li>
                             <li><a class="dropdown-item" href="exercicio18.php">ex18</a></li>
                             <li><a class="dropdown-item" href="exercicio19.php">ex19</a></li>
-                            <li><a class="dropdown-item" href="exercicio20.php">e20</a></li>
+                            <li><a class="dropdown-item" href="exercicio20.php">ex20</a></li>
                         </ul>
                     </li>
                 </ul>
