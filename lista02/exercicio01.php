@@ -1,9 +1,14 @@
+<?php
+include("cabecalho.php");
+
+?>
+
 <!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
+<title>Lista 02 - Exercício 01</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body> 
@@ -35,54 +40,35 @@
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 
-    <?php
-    if ($_SERVER['REQUEST_METHOD' == 'POST']){
-        $valor1 = $_POST['valor1'];
-        $valor2 = $_POST['valor2'];
-        $valor3 = $_POST['valor3'];
-        $valor4 = $_POST['valor4'];
-        $valor5 = $_POST['valor5'];
-        $valor6 = $_POST['valor6'];
-        $valor7 = $_POST['valor7'];
+   <?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Coloca todos os valores em um array
+    $valores = [
+        $_POST['valor1'],
+        $_POST['valor2'],
+        $_POST['valor3'],
+        $_POST['valor4'],
+        $_POST['valor5'],
+        $_POST['valor6'],
+        $_POST['valor7']
+    ];
 
-        $menor = $valor1;
-        $posicao = 1;
+    // Inicializa com o primeiro valor
+    $menor = $valores[0];
+    $posicao = 1;
 
-        if($valor2 < $menor){
-            $menor = $valor2;
-            $posicao = 2;
+    // Percorre o array
+    for ($i = 1; $i < count($valores); $i++) {
+        if ($valores[$i] < $menor) {
+            $menor = $valores[$i];
+            $posicao = $i + 1; // +1 porque array começa em 0
         }
-
-        if($valor3 < $menor){
-            $menor = $valor3;
-            $posicao = 3;
-        }
-
-        if($valor4 < $menor){
-            $menor = $valor4;
-            $posicao = 4;
-        }
-
-        if($valor5 < $menor){
-            $menor = $valor5;
-            $posicao = 5;
-        }
-
-        if($valor6 < $menor){
-            $menor = $valor6;
-            $posicao = 6;
-        }
-
-        if($valor7 < $menor){
-            $menor = $valor7;
-            $posicao = 7;
-        }
-
-        #trocar essa parte toda por um for
     }
-    ?>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</div>
-</body>
-</html>
+    echo "O menor valor é $menor e está na posição $posicao.";
+}
+
+include("rodape.php");
+?>
+
+

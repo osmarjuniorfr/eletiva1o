@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lista de exercício 01</title>
+    <title>Lista de exercício 02</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">Lista de exercício 01</a>
+            <a class="navbar-brand" href="#">Lista de exercício 02</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,16 +33,6 @@
                             <li><a class="dropdown-item" href="exercicio08.php">ex8</a></li>
                             <li><a class="dropdown-item" href="exercicio09.php">ex9</a></li>
                             <li><a class="dropdown-item" href="exercicio10.php">e10</a></li>
-                            <li><a class="dropdown-item" href="exercicio11.php">ex11</a></li>
-                            <li><a class="dropdown-item" href="exercicio12.php">ex12</a></li>
-                            <li><a class="dropdown-item" href="exercicio13.php">ex13</a></li>
-                            <li><a class="dropdown-item" href="exercicio14.php">ex14</a></li>
-                            <li><a class="dropdown-item" href="exercicio15.php">ex15</a></li>
-                            <li><a class="dropdown-item" href="exercicio16.php">ex16</a></li>
-                            <li><a class="dropdown-item" href="exercicio17.php">ex17</a></li>
-                            <li><a class="dropdown-item" href="exercicio18.php">ex18</a></li>
-                            <li><a class="dropdown-item" href="exercicio19.php">ex19</a></li>
-                            <li><a class="dropdown-item" href="exercicio20.php">ex20</a></li>
                         </ul>
                     </li>
                 </ul>
