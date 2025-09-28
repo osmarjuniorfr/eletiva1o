@@ -1,5 +1,6 @@
 <?php
 include("cabecalho.php");
+
 ?>
 
 <!doctype html>
@@ -36,5 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "<p>$n x $i é $tabuada</p>";
     }
 }
+
 include("rodape.php");
 ?>
