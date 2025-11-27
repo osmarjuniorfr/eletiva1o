@@ -48,8 +48,6 @@
     }
 ?>
 
-<h2 style="color: black;">Resumo Geral</h2>
-
 <table class="table table-hover table-striped">
     <thead>
         <tr>
