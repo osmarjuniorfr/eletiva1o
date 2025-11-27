@@ -34,15 +34,15 @@ if (isset($_GET['excluir']) && $_GET['excluir']) {
 
 ?>
 
-<a href="novo_time.php" class="btn btn-success" style="width: 10%;">Nova Equipe</a>
+<a href="novo_time.php" class="btn btn-success" style="width: 10%; background-color: #ffc107;">Nova Equipe</a>
 <div class="campeonato-main">
 
     <table class="styled-table">
         <thead>
-            <tr>
-                <th style="color: black; text-align: left;">Nome da Equipe</th>
-                <th style="color: black; text-align: left; margin-bottom: 10px;">Campeonato</th>
-                <th style="color: black; text-align: left; margin-bottom: 10px;">Organizador</th>
+            <tr style="background-color: black"> 
+                <th style="color: white; text-align: left;">Nome da Equipe</th>
+                <th style="color: white; text-align: left; margin-bottom: 10px;">Campeonato</th>
+                <th style="color: white; text-align: left; margin-bottom: 10px;">Organizador</th>
             </tr>
         </thead>
         <tbody>

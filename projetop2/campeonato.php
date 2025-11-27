@@ -36,13 +36,13 @@ if (isset($_GET['excluir']) && $_GET['excluir']) {
 
 ?>
 <div class="header-flex">
-    <a href="novo_campeonato.php" class="btn btn-success">Novo Campeonato</a>
+    <a href="novo_campeonato.php" class="btn btn-success" style="background-color: #ffc107">Novo Campeonato</a>
 </div>
 <div class="campeonato-main">
 
     <table class="styled-table">
         <thead style="width: 100%;">
-            <tr>
+            <tr style="background-color: black">
                 <th>ID</th>
                 <th>Campeonato</th>
                 <th>Organizador</th>

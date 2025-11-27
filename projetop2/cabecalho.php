@@ -42,11 +42,6 @@ $pagina_atual = basename($_SERVER['PHP_SELF']);
                         <i class="fa-solid fa-trophy"></i> Partidas
                     </a>
                 </li>
-                <li>
-                    <a href="resumo.php" class="<?= $pagina_atual == 'resumo.php' || $pagina_atual == 'resumo.php' ? 'active' : '' ?>">
-                        <i class="fa-solid fa-circle-info"></i> Geral
-                    </a>
-                </li>
             </ul>
         </nav>
 
@@ -57,7 +52,6 @@ $pagina_atual = basename($_SERVER['PHP_SELF']);
                 elseif (strpos($pagina_atual, 'equipe') !== false) echo "Equipes";
                 elseif (strpos($pagina_atual, 'partida') !== false) echo "Partidas";
                 elseif (strpos($pagina_atual, 'times') !== false) echo "times";
-                elseif (strpos($pagina_atual, 'resumo') !== false) echo "Resumo";
                 else echo "Principal";
                 ?>
 

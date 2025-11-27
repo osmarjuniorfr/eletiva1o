@@ -21,7 +21,7 @@
 
 <h2 style="color: black;">Central de Partidas</h2>
 <div class="header-flex">
-    <a href="nova_partida.php" class="btn btn-success" style="color: black; margin-bottom: 10px;">Nova Partida</a>
+    <a href="nova_partida.php" class="btn btn-success" style="color: black; margin-bottom: 10px; background-color: #ffc107;">Nova Partida</a>
 </div>
 
 <?php if(count($partidas) == 0): ?>
