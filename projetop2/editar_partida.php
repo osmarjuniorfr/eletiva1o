@@ -136,7 +136,7 @@
                 </select>
             </div>
             <div class="mb-3 form-group">
-                <label for="placar_visitante" class="form-label" style="color: black;">Gols (Placar)</label>
+                <label for="placar_visitante" class="form-label" style="color: black;">(Placar)</label>
                 <input value="<?= isset($dados['placar_visitante']) ? $dados['placar_visitante'] : '0' ?>" type="number" id="placar_visitante" name="placar_visitante" class="form-control" min="0" required>
             </div>
         </div>

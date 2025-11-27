@@ -61,9 +61,9 @@
             </th>
         </tr>
         <tr>
-            <th style="color: black;">Organizador (ID / Nome)</th>
-            <th style="color: black;">Campeonato (ID / Nome)</th>
-            <th style="color: black;">Partida (ID / Detalhes)</th>
+            <th style="color: black; text-align: left;">Organizador (ID / Nome)</th>
+            <th style="color: black; text-align: left;">Campeonato (ID / Nome)</th>
+            <th style="color: black; text-align: left;">Partida (ID / Detalhes)</th>
         </tr>
     </thead>
     <tbody>
